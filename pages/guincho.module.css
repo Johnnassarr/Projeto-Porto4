@@ -1,0 +1,99 @@
+/* guincho.module.css */
+.container {
+    text-align: center;
+    background: linear-gradient(135deg, #04a4fc, #0096d6); /* Gradiente para dar profundidade */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.inputContainer {
+    display: flex;
+    gap: 10px; /* Espaçamento entre o input e o botão */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container input {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+    font-size: 1em;
+    text-align: center;
+}
+
+.container .info {
+    background: white;
+    color: #04a4fc;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    text-align: left;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    font-size: 1em;
+}
+
+.container .info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.container .btn {
+    background: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container .btn:hover {
+    background: #0056b3;
+}
+
+.link-home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    transition: background 0.3s, text-decoration 0.3s;
+}
+
+.link-home:hover {
+    background: rgba(255, 255, 255, 0.4);
+    text-decoration: underline;
+}
+
+.mensagem {
+    margin-top: 20px;
+    font-size: 1em;
+    color:#fff;
+    font-weight: bold;
+}
